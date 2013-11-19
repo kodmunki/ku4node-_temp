@@ -1,0 +1,35 @@
+{
+    "name": "ku4node-PROJECT”,
+    "version": “0.0.0”,
+    "author": "kodmunki <support@kodmunki.com>",
+    "description": "kodmunki PROJECT”,
+    "contributors": [
+        {
+            "name": "kodmunki",
+            "email": "support@kodmunki.com"
+        }
+    ],
+    "bin": {
+        "ku4node-kernel": "./bin/ku4node-PROJECT”
+    },
+    "scripts": {
+        "start": "node ./bin/ku4node-PROJECT”,
+        "test": "vows --spec --isolate"
+    },
+    "main": “./src/index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kodmunki/ku4node-PROJECT.git”
+    },
+    "keywords": [
+        "kodmunki",
+        "ku4node",
+        "kernel"
+    ],
+    "analyze": false,
+    "private": false,
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
